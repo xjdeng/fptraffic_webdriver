@@ -1,6 +1,6 @@
-import requests
+import requests, time
 
-def caption(url):
+def caption(image_url):
     with open('subscription_key.key','r') as f:
         subscription_key = f.read()
     vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/"
@@ -8,9 +8,7 @@ def caption(url):
     vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/"
     
     vision_analyze_url = vision_base_url + "describe"
-    
-    image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Broadway_and_Times_Square_by_night.jpg/450px-Broadway_and_Times_Square_by_night.jpg"
-    
+       
     headers  = {'Ocp-Apim-Subscription-Key': subscription_key }
     params   = {'visualFeatures': 'Categories,Description,Color'}
     data     = {'url': image_url}
@@ -18,3 +16,23 @@ def caption(url):
     response.raise_for_status()
     analysis = response.json()
     return analysis['description']['captions'][0]['text']
+
+def label(browser):
+    imgs = browser.find_elements_by_class_name("img-polaroid")
+    for i in range(len(imgs)):        
+        imgurl = imgs[i].get_attribute("src")        
+        texts = browser.find_elements_by_partial_link_text("here to add a description")
+        b = texts[i]        
+        b.click()
+        wait()        
+        input_area = browser.find_element_by_class_name("input-large")        
+        input_area.click()
+        wait()
+        imgtxt = caption(imgurl)        
+        input_area.send_keys(imgtxt)        
+        checkbox = browser.find_element_by_css_selector(".icon-ok.icon-white")
+        checkbox.click()
+        wait()
+        
+def wait(seconds = 2):
+    time.sleep(seconds)
