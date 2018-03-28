@@ -19,9 +19,9 @@ def caption(image_url):
 
 def label(browser):
     imgs = browser.find_elements_by_class_name("img-polaroid")
+    texts = browser.find_elements_by_partial_link_text("here to add a description")
     for i in range(len(imgs)):        
         imgurl = imgs[i].get_attribute("src")        
-        texts = browser.find_elements_by_partial_link_text("here to add a description")
         b = texts[i]        
         b.click()
         wait()        
