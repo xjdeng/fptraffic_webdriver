@@ -29,6 +29,8 @@ pip install selenium
 
 Install the [Chrome webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and put the folder you installed to in your OS's PATH variable (instructions vary based on your OS, please Google for them if you're not sure.)
 
+Then sign up for a [Microsoft API Key](https://azure.microsoft.com/en-us/services/cognitive-services/).  Copy the key and paste it in a Notepad.  Save that into a file named *subscription_key.key* in the same directory as this repository.
+
 ##### Run each time you want to label images:
 
 Navigate to the directory where this module is installed.
@@ -55,4 +57,3 @@ Finally, run the following:
 ```
 main.label(browser)
 ```
-
