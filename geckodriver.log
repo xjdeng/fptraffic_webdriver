@@ -1,0 +1,58 @@
+1522983419085	geckodriver	INFO	geckodriver 0.19.1
+1522983419126	geckodriver	INFO	Listening on 127.0.0.1:65339
+1522983421128	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Waterfox\\waterfox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.O1KL1yf9tYGf"
+1522983422920	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Waterfox/omni.ja!/components/addonManager.js:65
+1522983427414	Marionette	INFO	Enabled via --marionette
+1522983429676	Marionette	INFO	Listening on port 65345
+1522983452645	geckodriver	INFO	geckodriver 0.19.1
+1522983452650	geckodriver	INFO	Listening on 127.0.0.1:65369
+1522983454735	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Waterfox\\waterfox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.iSJ9xazqSydK"
+1522983454940	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Waterfox/omni.ja!/components/addonManager.js:65
+1522983456246	Marionette	INFO	Enabled via --marionette
+1522983457504	Marionette	INFO	Listening on port 65375
+1522983573686	geckodriver	INFO	geckodriver 0.19.1
+1522983573691	geckodriver	INFO	Listening on 127.0.0.1:65414
+1522983575770	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Waterfox\\waterfox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.SqJEXd6JJ4hT"
+1522983575975	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Waterfox/omni.ja!/components/addonManager.js:65
+1522983577281	Marionette	INFO	Enabled via --marionette
+1522983578549	Marionette	INFO	Listening on port 65420
+1522983694797	geckodriver	INFO	geckodriver 0.19.1
+1522983694803	geckodriver	INFO	Listening on 127.0.0.1:65452
+1522983696884	mozrunner::runner	INFO	Running command: "d:\\Program Files\\Waterfox\\waterfox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.ZTH5B9zuUt6C"
+1522983697097	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Waterfox/omni.ja!/components/addonManager.js:65
+1522983698408	Marionette	INFO	Enabled via --marionette
+1522983699603	Marionette	INFO	Listening on port 65458
+1522983879403	geckodriver	INFO	geckodriver 0.19.1
+1522983879409	geckodriver	INFO	Listening on 127.0.0.1:65524
+1522983881537	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.ZDMlfa56IMH5"
+1522983882304	Marionette	INFO	Enabled via --marionette
+1522983884516	Marionette	INFO	Listening on port 65530
+1522983884650	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 23888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1522984010377	geckodriver	INFO	geckodriver 0.19.1
+1522984010384	geckodriver	INFO	Listening on 127.0.0.1:49251
+1522984012479	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.L6B3dbxNR0iL"
+1522984012972	Marionette	INFO	Enabled via --marionette
+1522984014282	Marionette	INFO	Listening on port 49257
+1522984014510	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
