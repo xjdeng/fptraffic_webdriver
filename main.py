@@ -1,5 +1,5 @@
 import requests, time
-from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import ElementNotInteractableException, StaleElementReferenceException
 
 def caption(image_url):
     with open('subscription_key.key','r') as f:
@@ -34,6 +34,8 @@ def label(browser):
                 goahead = True
             except ElementNotInteractableException:
                 wait()
+            except StaleElementReferenceException:
+                goahead = True #skip if can't be found
         wait()
         imgtxt = caption(imgurl)        
         input_area.send_keys(imgtxt)        
