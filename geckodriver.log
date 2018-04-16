@@ -56,3 +56,35 @@ JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: f
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 21112, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[Child 23784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21112, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21112, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 16224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523845546563	geckodriver	INFO	geckodriver 0.19.1
+1523845546579	geckodriver	INFO	Listening on 127.0.0.1:59058
+1523845548611	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\xjd00\\AppData\\Local\\Temp\\rust_mozprofile.ivCA75QUygqR"
+1523845549304	Marionette	INFO	Enabled via --marionette
+1523845550968	Marionette	INFO	Listening on port 59064
+1523845551734	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\xjd00\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://fptraffic.com/pages/#_=_, line 2254: ReferenceError: fbq is not defined

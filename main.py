@@ -31,17 +31,18 @@ def label(browser):
         while goahead == False:
             try:
                 input_area.click()
+                wait()
+                imgtxt = caption(imgurl)        
+                input_area.send_keys(imgtxt)        
+                checkbox = browser.find_element_by_css_selector(".icon-ok.icon-white")
+                checkbox.click()
+                wait()
                 goahead = True
             except ElementNotInteractableException:
                 wait()
             except StaleElementReferenceException:
                 goahead = True #skip if can't be found
-        wait()
-        imgtxt = caption(imgurl)        
-        input_area.send_keys(imgtxt)        
-        checkbox = browser.find_element_by_css_selector(".icon-ok.icon-white")
-        checkbox.click()
-        wait()
+
         
 def wait(seconds = 2):
     time.sleep(seconds)
