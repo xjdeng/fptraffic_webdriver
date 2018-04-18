@@ -18,10 +18,10 @@ def caption(image_url):
     analysis = response.json()
     return analysis['description']['captions'][0]['text']
 
-def label(browser):
+def label(browser, start = 0):
     imgs = browser.find_elements_by_class_name("img-polaroid")
     texts = browser.find_elements_by_partial_link_text("here to add a description")
-    for i in range(len(imgs)):        
+    for i in range(start, len(imgs)):        
         imgurl = imgs[i].get_attribute("src")        
         b = texts[i]        
         b.click()
