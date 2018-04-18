@@ -14,7 +14,14 @@ def caption(image_url):
     params   = {'visualFeatures': 'Categories,Description,Color'}
     data     = {'url': image_url}
     response = requests.post(vision_analyze_url, headers=headers, params=params, json=data)
-    response.raise_for_status()
+    goahead = False
+    while goahead == False:
+        try:
+            response.raise_for_status()
+            goahead = True
+        except requests.exceptions.HTTPError:
+            wait()
+            
     analysis = response.json()
     return analysis['description']['captions'][0]['text']
 
