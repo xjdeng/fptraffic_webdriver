@@ -1,2 +1,4 @@
 *.key
 *,pyc
+__pycache__
+geckodriver.log
